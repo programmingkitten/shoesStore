@@ -1,4 +1,47 @@
+article {
+    position: relative;
+}
 
-h1 {
-    color: red;
+article img {
+    position: absolute;
+    height: 90vh;
+    width: 94vw;
+    margin-left: 2.7vw;
+}
+
+article .articleContent {
+    position: absolute;
+    margin-left: 19vw;
+    margin-top: 20vh;
+}
+
+.articleContent h1 {
+    font-size: calc(1.7em + 1.7vw);
+    width: 30vw;
+    color: rgb(210, 207, 207);
+    font-family: 'Poppins',sans-serif;
+}
+
+.articleContent p {
+    font-size: calc(0.7em + .7vw);
+    color: aliceblue;
+    width: 30vw;
+    font-family: 'Poppins',sans-serif;
+    padding-bottom: 4vh;
+}
+
+.articleContent a {
+    font-size: calc(.4em + .4vw);
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    background-color: white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    text-align: center;
+    margin-right: 2vw;
+    margin-top: 5vh;
 }
