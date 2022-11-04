@@ -1,3 +1,21 @@
-h1 {
-    color: red;
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgba(196, 190, 190, 0.349);
+    padding-top: 1vh;
+    height: 2.8vh;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: calc(.4em + .4vw);
+    margin-bottom: 1vh;
+    position: absolute;
+    left: 38%;
+    top: 1%;
+    color: rgb(134, 131, 131);
 }
