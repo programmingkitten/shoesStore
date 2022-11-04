@@ -1,0 +1,20 @@
+
+.info {
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+.images {
+
+    margin-left: 5vw;
+}
+
+.images img {
+    margin-left: 3vw;
+    margin-top: 2vh;
+    width: 25vw;
+}
+
+h1 {
+}
