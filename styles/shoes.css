@@ -1,0 +1,91 @@
+
+body {
+    background-color: rgba(196, 190, 190, 0.349);
+
+}
+
+
+.container {
+    width: 65vw;
+    background-color: white;
+    margin-left: 17vw;
+    height: 190vh;
+}
+
+.container h1 {
+    color: rgb(104, 104, 4);
+    font-family: 'Poppins',sans-serif;
+    font-size: calc(.9em + .9vw);
+    font-weight: 100;
+    padding-top: 4vh;
+
+}
+
+.content {
+    margin-left: 3vw;
+    margin-top: 5vh;
+}
+
+.shoes .shoe {
+    float: left;
+    width: 33%;
+    text-align: center;
+    
+}
+
+
+
+.shoes {
+    margin-top: 3vh;
+}
+
+.shoe {
+    position: inline-block;
+}
+
+#pet-select {
+    float: right;
+    position: absolute;
+    margin-left: 40vw;
+    margin-top: 11.5vh;
+    border: none;
+}
+
+.showP {
+    position: absolute;
+    margin-left: 14vw;
+    margin-top: 11.8vh;
+    color: gray ;
+}
+
+select {
+    border:0px;
+    outline:0px;
+    font-size: calc(.5em + .5vw);
+ }
+
+.shoe p {
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 900;
+}
+
+.shoe h1 {
+    font-size: calc(.5em + .5vw);
+}
+
+.shoes .shoe img {
+    width: 17vw;
+}
+
+.filter button {
+    background-color: rgb(86, 86, 4);
+    border: none;
+    font-family: 'Poppins',sans-serif;
+    color: rgb(232, 229, 229);
+    font-weight: 600;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-right: 1.4vw;
+    padding-left: 1.4vw;
+}
